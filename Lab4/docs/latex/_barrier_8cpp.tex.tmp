@@ -1,0 +1,54 @@
+\hypertarget{_barrier_8cpp}{}\section{Barrier.\+cpp File Reference}
+\label{_barrier_8cpp}\index{Barrier.\+cpp@{Barrier.\+cpp}}
+{\ttfamily \#include \char`\"{}Semaphore.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$thread$>$}\\*
+Include dependency graph for Barrier.\+cpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_barrier_8cpp_aaff03e7fecacef1cda64e99330d5c982}{task\+One} (shared\+\_\+ptr$<$ \hyperlink{class_semaphore}{Semaphore} $>$ Mutex, shared\+\_\+ptr$<$ \hyperlink{class_semaphore}{Semaphore} $>$ BarrierA, shared\+\_\+ptr$<$ \hyperlink{class_semaphore}{Semaphore} $>$ BarrierB)
+\item 
+int \hyperlink{_barrier_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{main} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_barrier_8cpp_ad43c3812e6d13e0518d9f8b8f463ffcf}{count} = 0
+\item 
+int \hyperlink{_barrier_8cpp_aaf31d3cf5ae5a3de4f821ba34df016ee}{barrier\+Limit} = 3
+\item 
+int \hyperlink{_barrier_8cpp_a2e109c9d2694cd35dd72734e1d8d0087}{thread\+Count} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{Barrier.\+cpp@{Barrier.\+cpp}!main@{main}}
+\index{main@{main}!Barrier.\+cpp@{Barrier.\+cpp}}
+\subsubsection[{\texorpdfstring{main(void)}{main(void)}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{_barrier_8cpp_a840291bc02cba5474a4cb46a9b9566fe}{}\label{_barrier_8cpp_a840291bc02cba5474a4cb46a9b9566fe}
+\index{Barrier.\+cpp@{Barrier.\+cpp}!task\+One@{task\+One}}
+\index{task\+One@{task\+One}!Barrier.\+cpp@{Barrier.\+cpp}}
+\subsubsection[{\texorpdfstring{task\+One(shared\+\_\+ptr$<$ Semaphore $>$ Mutex, shared\+\_\+ptr$<$ Semaphore $>$ Barrier\+A, shared\+\_\+ptr$<$ Semaphore $>$ Barrier\+B)}{taskOne(shared_ptr< Semaphore > Mutex, shared_ptr< Semaphore > BarrierA, shared_ptr< Semaphore > BarrierB)}}]{\setlength{\rightskip}{0pt plus 5cm}void task\+One (
+\begin{DoxyParamCaption}
+\item[{shared\+\_\+ptr$<$ {\bf Semaphore} $>$}]{Mutex, }
+\item[{shared\+\_\+ptr$<$ {\bf Semaphore} $>$}]{BarrierA, }
+\item[{shared\+\_\+ptr$<$ {\bf Semaphore} $>$}]{BarrierB}
+\end{DoxyParamCaption}
+)}\hypertarget{_barrier_8cpp_aaff03e7fecacef1cda64e99330d5c982}{}\label{_barrier_8cpp_aaff03e7fecacef1cda64e99330d5c982}
+
+
+\subsection{Variable Documentation}
+\index{Barrier.\+cpp@{Barrier.\+cpp}!barrier\+Limit@{barrier\+Limit}}
+\index{barrier\+Limit@{barrier\+Limit}!Barrier.\+cpp@{Barrier.\+cpp}}
+\subsubsection[{\texorpdfstring{barrier\+Limit}{barrierLimit}}]{\setlength{\rightskip}{0pt plus 5cm}int barrier\+Limit = 3}\hypertarget{_barrier_8cpp_aaf31d3cf5ae5a3de4f821ba34df016ee}{}\label{_barrier_8cpp_aaf31d3cf5ae5a3de4f821ba34df016ee}
+\index{Barrier.\+cpp@{Barrier.\+cpp}!count@{count}}
+\index{count@{count}!Barrier.\+cpp@{Barrier.\+cpp}}
+\subsubsection[{\texorpdfstring{count}{count}}]{\setlength{\rightskip}{0pt plus 5cm}int count = 0}\hypertarget{_barrier_8cpp_ad43c3812e6d13e0518d9f8b8f463ffcf}{}\label{_barrier_8cpp_ad43c3812e6d13e0518d9f8b8f463ffcf}
+\index{Barrier.\+cpp@{Barrier.\+cpp}!thread\+Count@{thread\+Count}}
+\index{thread\+Count@{thread\+Count}!Barrier.\+cpp@{Barrier.\+cpp}}
+\subsubsection[{\texorpdfstring{thread\+Count}{threadCount}}]{\setlength{\rightskip}{0pt plus 5cm}int thread\+Count = 0}\hypertarget{_barrier_8cpp_a2e109c9d2694cd35dd72734e1d8d0087}{}\label{_barrier_8cpp_a2e109c9d2694cd35dd72734e1d8d0087}
